@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">News View</string>
+    <string name="btn_close">Close</string>
+    <string name="author_absent">Author is absent</string>
+    <string name="title_absent">Title is absent</string>
+    <string name="description_absent">Description is absent</string>
+    <string name="date_absent">Date is absent</string>
+    <string name="content_absent">Content is absent</string>
+    <string name="link_absent">Link is absent</string>
+    <string name="source_absent">Source is absent</string>
+    <string name="connection_failed">No internet connection</string>
+    <string name="try_to_connect">Retry to connect</string>
+</resources>

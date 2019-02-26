@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorCard">
+
+        <ImageView
+            android:id="@+id/img_news"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/image_empty"/>
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_news"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="TestText"
+            android:textAlignment="viewStart"
+            android:textColor="@android:color/black"
+            android:textSize="15sp"
+            android:ellipsize="end"
+            android:maxLines="4"/>
+
+        <TextView
+            android:id="@+id/textView_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_news"
+            android:text="TestText"
+            android:textColor="@color/colorGray"
+            android:textSize="15sp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/textView_title"
+            android:ellipsize="end"
+            android:maxLines="3"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
