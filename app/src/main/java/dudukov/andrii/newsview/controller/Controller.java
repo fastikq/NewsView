@@ -63,7 +63,6 @@ public class Controller {
                     }));
         }
 
-
     public void fetchDataOfSelectedArticle(TextView[] textViewsForFillInfo, ImageView imageNews, Context context,  int articleId) {
         ArticleModel selectedArticle = articles.get(articleId);
 
@@ -90,11 +89,15 @@ public class Controller {
         textViewsForFillInfo[3].setText(selectedArticle.getTitle());
         textViewsForFillInfo[5].setText(selectedArticle.getUrl());
 
+        loadImageToArticle(imageNews, context, selectedArticle.getUrlToImage());
+    }
+
+    public void loadImageToArticle(ImageView imageView, Context context, String urlToImage){
         Picasso.with(context)
-                .load(selectedArticle.getUrlToImage())
+                .load(urlToImage)
                 .placeholder(R.mipmap.image_empty)
                 .error(R.mipmap.image_empty)
-                .into(imageNews);
+                .into(imageView);
     }
 
     public Boolean isNetworkAvailable(Context context) {
