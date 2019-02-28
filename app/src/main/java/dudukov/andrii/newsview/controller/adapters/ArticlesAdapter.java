@@ -16,7 +16,7 @@ import java.util.List;
 
 import dudukov.andrii.newsview.R;
 import dudukov.andrii.newsview.model.ArticleModel;
-import dudukov.andrii.newsview.ArticleActivity;
+import dudukov.andrii.newsview.controller.ArticleActivity;
 
 public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ArticlesViewHolder> {
 

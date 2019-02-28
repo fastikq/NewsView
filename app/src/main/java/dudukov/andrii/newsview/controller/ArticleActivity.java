@@ -1,4 +1,4 @@
-package dudukov.andrii.newsview;
+package dudukov.andrii.newsview.controller;
 
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
