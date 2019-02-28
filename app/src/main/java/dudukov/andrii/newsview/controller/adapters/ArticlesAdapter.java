@@ -1,4 +1,4 @@
-package dudukov.andrii.newsview.view.recyclerview.adapter;
+package dudukov.andrii.newsview.controller.adapters;
 
 import android.content.Context;
 import android.content.Intent;
@@ -16,7 +16,7 @@ import java.util.List;
 
 import dudukov.andrii.newsview.R;
 import dudukov.andrii.newsview.model.ArticleModel;
-import dudukov.andrii.newsview.view.ArticleActivity;
+import dudukov.andrii.newsview.ArticleActivity;
 
 public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.ArticlesViewHolder> {
 

@@ -1,4 +1,4 @@
-package dudukov.andrii.newsview.api.retrofit;
+package dudukov.andrii.newsview.model.api.retrofit;
 
 import retrofit2.Retrofit;
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;

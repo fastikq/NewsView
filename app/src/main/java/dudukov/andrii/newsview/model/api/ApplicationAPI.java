@@ -1,6 +1,6 @@
-package dudukov.andrii.newsview.api;
+package dudukov.andrii.newsview.model.api;
 
-import dudukov.andrii.newsview.api.responses.ArticlesResponse;
+import dudukov.andrii.newsview.model.api.responses.ArticlesResponse;
 import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Query;

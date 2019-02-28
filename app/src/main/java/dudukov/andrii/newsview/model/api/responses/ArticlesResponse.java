@@ -1,4 +1,4 @@
-package dudukov.andrii.newsview.api.responses;
+package dudukov.andrii.newsview.model.api.responses;
 
 import java.util.List;
 
