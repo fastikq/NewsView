@@ -62,7 +62,7 @@ public class ArticlesAdapter extends RecyclerView.Adapter<ArticlesAdapter.Articl
 
         holder.txtTitle.setText(currentItem.getTitle());
 
-        if (currentItem.getDescription().length() != 0) {
+        if (currentItem != null && currentItem.getDescription().length() != 0) {
             holder.txtDescription.setText(currentItem.getDescription());
         } else {
             holder.txtDescription.setText(R.string.description_absent);
